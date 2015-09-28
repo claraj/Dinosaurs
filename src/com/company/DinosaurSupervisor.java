@@ -17,5 +17,9 @@ public class DinosaurSupervisor {
         //Test color attribure of dinosaur object
         trex.color = "blue";
         System.out.println("A T-Rex is " + trex.color);
+
+        velociraptor.color = "green";
+        System.out.println("A Velociraptor is " + velociraptor.color);
+
     }
 }
