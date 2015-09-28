@@ -14,5 +14,8 @@ public class DinosaurSupervisor {
         velociraptor.roar();
         diplodocus.roar();
 
+        //Test color attribure of dinosaur object
+        trex.color = "blue";
+        System.out.println("A T-Rex is " + trex.color);
     }
 }
